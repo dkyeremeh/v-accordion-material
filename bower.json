@@ -1,0 +1,26 @@
+{
+  "name": "v-accordion-material",
+  "homepage": "https://github.com/dekyfin/v-accordion-material",
+  "authors": [
+    "Desmond Kyeremeh <elDekyfin@gmail.com>"
+  ],
+  "description": "A material theme for v-accordion implementing material expansion panels",
+  "main": "v-accordion-material.css",
+  "keywords": [
+    "angular-material",
+    "v-accordion",
+    "material-expansion-panels",
+    "css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "v-accordion": "^1.6.0"
+  }
+}
