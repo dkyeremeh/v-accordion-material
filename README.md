@@ -1,27 +1,35 @@
 # V-Accordion Material
-With v-accordion-material, you can implement [material expansion panels](https://material.io/guidelines/components/expansion-panels.html) for [angular material](https://material.angularjs.org) using [v-accordion](https://github.com/LukaszWatroba/v-accordion) - an accordion module for angularjs
+
+This is a material theme for [v-accordion](https://github.com/LukaszWatroba/v-accordion). It follows the material design guideline for [expansion panels](https://material.io/guidelines/components/expansion-panels.html).
+
+With v-accordion-material, you can also create [expansion panels](https://material.io/guidelines/components/expansion-panels.html)  for [angular material](https://material.angularjs.org) using [v-accordion](https://github.com/LukaszWatroba/v-accordion) - (an accordion module for angularjs)
+
+## DEMO
+[CodePen](https://codepen.io/anon/pen/PKQWQW)
 
 ## Installation instructions
 
-## Bower
+### Bower
 Run `bower install v-accordion-material --save`
 
-## Manual Install
+### Manual Install
 1. Download the latest release of v-accordion-material
 2. Download [v-accordion](https://github.com/LukaszWatroba/v-accordion)
 
 ## Usage
-Include the files for v-accordion, and v-accordion-material in your project
+Include the files for `v-accordion`, and `v-accordion-material` in your project
 
 ```html
 <link href="v-accordion.css" rel="stylesheet" />
 <link href="v-accordion-material.css" rel="stylesheet" />
+
+<script src="v-accordion.js"></script>
 ```
 
-**Follow the instructions** on [v-accordion](https://github.com/LukaszWatroba/v-accordion) to learn to use v-accordion
+**Follow the instructions** for [v-accordion](https://github.com/LukaszWatroba/v-accordion) to learn to use v-accordion
 
 ### Setting Material theme
-In order to use this theme, set `v-accordion-material` as the class name of the accordion as shown below
+In order to use this theme, set `v-accordion-material` as the class name of `<v-accordion>` as shown below:
 
 ```html
 <v-accordion class="v-accordion-material">
