@@ -35,8 +35,6 @@ v-accordion.v-accordion-material  {
 	display: flex;
 	white-space: nowrap;
 }
-.v-accordion-material v-pane > v-pane-header md-title,
-.v-accordion-material v-pane > v-pane-header [md-title],
 .v-accordion-material v-pane > v-pane-header .md-title{
 	flex: 1;
 	font-size: inherit;
@@ -45,6 +43,7 @@ v-accordion.v-accordion-material  {
 	text-overflow: ellipsis;
 	outline: 0;
 	margin: 0;
+	padding-right: 8px;
 }
 .v-accordion-material v-pane > v-pane-header md-summary,
 .v-accordion-material v-pane > v-pane-header [md-summary],
