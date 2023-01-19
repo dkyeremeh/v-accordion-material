@@ -1,0 +1,8 @@
+{
+    "name": "v-accordion-material",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:dkyeremeh/v-accordion-material.git",
+    "author": "Desmond Kyeremeh <eldkyeremeh@gmail.com>",
+    "license": "MIT"
+}

@@ -12,6 +12,12 @@ With v-accordion-material, you can also create [expansion panels](https://materi
 ### Bower
 Run `bower install v-accordion-material --save`
 
+### Npm
+Run `npm i v-accordion-material`
+
+### Yarn
+Run `yarn add v-accordion-material`
+
 ### Manual Install
 1. Download the latest release of v-accordion-material
 2. Download [v-accordion](https://github.com/LukaszWatroba/v-accordion)
